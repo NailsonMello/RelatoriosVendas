@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_ponto"
+        android:title="Ponto"
+        app:showAsAction="always"
+        android:visible="false"
+        android:icon="@drawable/ic_ponto_branco"
+        />
+    <item android:id="@+id/action_aulas"
+        android:title="Aulas disponives"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_faturados"
+        android:title="Faturados"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/action_devolucoes"
+        android:title="Devoluções"
+        app:showAsAction="never"
+        />
+<item android:id="@+id/action_grafico"
+        android:title="Desempenho anual"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_registro"
+        android:title="Pontos registrados"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_acaoVigente"
+        android:title="Ações vigentes"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/action_sair"
+        android:title="Sair"
+        app:showAsAction="never"
+        />
+
+</menu>

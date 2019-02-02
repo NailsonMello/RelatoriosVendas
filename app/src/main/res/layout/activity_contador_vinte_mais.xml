@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContadorVinteMais">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="4dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nomeSheila"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="22dp"
+                    android:text="Positivação geral"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"/>
+
+                <LinearLayout
+                    android:layout_weight="10"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_margin="6dp"
+                        app:cardElevation="4dp"
+                        android:layout_weight="3"
+                        app:cardCornerRadius="4dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="3dp"
+                                android:text="Torrada"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:id="@+id/statusTorrada"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0 de 160"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:layout_marginTop="10dp"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                />
+                            <TextView
+                                android:visibility="gone"
+                                android:id="@+id/torrada"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:text="torrada"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_margin="6dp"
+                        app:cardElevation="4dp"
+                        android:layout_weight="3"
+                        app:cardCornerRadius="4dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="3dp"
+                                android:text="Chips"
+                                android:textColor="@color/black"/>
+
+                            <TextView
+                                android:id="@+id/statusChips"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0 de 160"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:layout_marginTop="10dp"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                />
+
+                            <TextView
+                                android:visibility="gone"
+                                android:id="@+id/chips"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:text="chips"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_margin="6dp"
+                        app:cardElevation="4dp"
+                        android:layout_weight="3"
+                        app:cardCornerRadius="4dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="3dp"
+                                android:text="Bisc.Tapioca"
+                                android:textColor="@color/black"/>
+
+                            <TextView
+                                android:id="@+id/statusBisc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0 de 160"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:layout_marginTop="10dp"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                />
+                            <TextView
+                                android:visibility="gone"
+                                android:id="@+id/bisc_tapioca"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"
+                                android:text="BiscoitoTapioca"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

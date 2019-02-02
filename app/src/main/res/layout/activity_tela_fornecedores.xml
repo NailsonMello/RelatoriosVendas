@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".TelaFornecedores">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+<LinearLayout
+    android:id="@+id/layoutRosangela"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:weightSum="12"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnFaturados"
+        android:text="Faturados"
+        android:background="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_weight="4"
+        android:textColor="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/btnDevolucoes"
+        android:text="Devolvidos"
+        android:background="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_weight="4"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:text="sair"
+        android:background="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_weight="4"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutRosangela1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layoutRosangela"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:weightSum="12"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnFaturados1"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_ponto_branco"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:layout_weight="4"
+            android:textColor="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <Button
+            android:id="@+id/btnRegistrados"
+            android:text="P. registrados"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <Button
+            android:id="@+id/btnanual"
+            android:text="Desempenho"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listafornecedor"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/layoutRosangela1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

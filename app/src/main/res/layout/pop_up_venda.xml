@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/circleback"
+    android:gravity="center"
+    android:layout_margin="30dp"
+    android:layout_gravity="center">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="@color/branco"
+        android:textStyle="bold"
+        android:text="X"
+        android:background="@drawable/circle"
+        android:layout_gravity="end"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f9f901"
+        android:text="Atenção"
+        android:textAlignment="center"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Falta para bater a meta: "
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/vendaFaltas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:textAlignment="center"
+        android:text="Geral"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/vendaflormel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:textAlignment="center"
+        android:text="Flormel"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/vendafhom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:textAlignment="center"
+        android:text="Fhom"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/vendabio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:textAlignment="center"
+        android:text="Biosoft"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+</ScrollView>

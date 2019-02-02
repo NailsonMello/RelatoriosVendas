@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Roma Vendas</string>
+
+    <string-array name="usuarios">
+
+        <item>Claudia</item>
+        <item>Mauro</item>
+        <item>Cassiara</item>
+        <item>Magali</item>
+        <item>Sheila</item>
+        <item>Rosangela</item>
+        <item>Patricia</item>
+        <item>Joise</item>
+        <item>Cristiane</item>
+        <item>Diana</item>
+        <item>Nailson</item>
+    </string-array>
+
+
+    <string-array name="status">
+
+        <item>Entrada ou saida?</item>
+        <item>Entrada</item>
+        <item>Saida</item>
+    </string-array>
+
+
+    <string-array name="pedido">
+
+        <item>Tirou pedido?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+</resources>

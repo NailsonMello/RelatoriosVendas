@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardRota"
+    android:orientation="vertical"
+    android:background="@color/branco">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:id="@+id/telarota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nomeClienteFaturado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cliente"
+        android:layout_weight="3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLines="2"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/valorClienteFaturado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vendido"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="7"
+        android:textStyle="bold"
+        android:background="#f9e404"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#c1c1c1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

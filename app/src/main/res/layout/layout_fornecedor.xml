@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="4dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:background="#aefceeee"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    <ImageView
+        android:id="@+id/imgForneccedor"
+        android:layout_gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtFornecedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Fornecedor"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"/>
+</LinearLayout>
+</android.support.v7.widget.CardView>
